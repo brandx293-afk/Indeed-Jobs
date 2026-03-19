@@ -10,9 +10,9 @@ Triggers:
 import logging
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.state     import init_db, get_pending_jobs, get_job_by_number, set_status
-from core.generator import generate_application_packet
-from core.notifier  import notify_application_ready, send_text
+from state     import init_db, get_pending_jobs, get_job_by_number, set_status
+from generator import generate_application_packet
+from notifier  import notify_application_ready, send_text
 
 logger = logging.getLogger(__name__)
 
