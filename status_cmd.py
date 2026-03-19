@@ -8,7 +8,7 @@ import logging
 from datetime import datetime
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.state   import init_db, get_all_stats, get_criteria, get_pending_jobs, get_jobs_by_status
+from state   import init_db, get_all_stats, get_criteria, get_pending_jobs, get_jobs_by_status
 
 logger = logging.getLogger(__name__)
 
