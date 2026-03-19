@@ -9,7 +9,7 @@ import logging
 import commands.run_cmd as run_module
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.notifier import send_text
+from notifier import send_text
 
 logger = logging.getLogger(__name__)
 
