@@ -6,7 +6,7 @@ and sends confirmation.
 """
 
 import logging
-import commands.run_cmd as run_module
+import run_cmd as run_module
 from telegram import Update
 from telegram.ext import ContextTypes
 from notifier import send_text
