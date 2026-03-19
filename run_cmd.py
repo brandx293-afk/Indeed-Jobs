@@ -14,9 +14,9 @@ Examples:
 import logging
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.state   import init_db, get_criteria, set_criteria, upsert_job, is_rejected, get_pending_jobs
-from core.scraper import run_full_search
-from core.notifier import send_text
+from state   import init_db, get_criteria, set_criteria, upsert_job, is_rejected, get_pending_jobs
+from scraper import run_full_search
+from notifier import send_text
 
 logger = logging.getLogger(__name__)
 _running = False   # simple lock to prevent double-runs
