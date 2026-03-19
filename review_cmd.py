@@ -10,8 +10,8 @@ Each card shows the job number to use with /yes, /no, /wait.
 import logging
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.state   import init_db, get_pending_jobs, get_job_by_number
-from core.notifier import send_text
+from state   import init_db, get_pending_jobs, get_job_by_number
+from notifier import send_text
 
 logger = logging.getLogger(__name__)
 
