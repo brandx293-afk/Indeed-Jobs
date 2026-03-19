@@ -1,1 +1,2 @@
-from commands.no_wait_cmd import wait_command
+from no_wait_cmd import wait_command
+
