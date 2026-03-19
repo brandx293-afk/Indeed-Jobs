@@ -6,7 +6,7 @@
 import logging
 from telegram import Update
 from telegram.ext import ContextTypes
-from core.state  import init_db, get_job_by_number, get_pending_jobs, set_status, set_wait
+from state  import init_db, get_job_by_number, get_pending_jobs, set_status, set_wait
 
 logger = logging.getLogger(__name__)
 
